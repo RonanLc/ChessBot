@@ -15,19 +15,19 @@ TILE_SIZE = WIDTH // 8    # Nombre de case par lignes
 WHITE = (235, 236, 208)
 BLACK = (119, 149, 86)
 
-B_bishop = pygame.image.load(os.path.join('pieces', 'B_bishop.png'))
-B_king = pygame.image.load(os.path.join('pieces', 'B_king.png'))
-B_knight = pygame.image.load(os.path.join('pieces', 'B_knight.png'))
-B_pawn = pygame.image.load(os.path.join('pieces', 'B_pawn.png'))
-B_queen = pygame.image.load(os.path.join('pieces', 'B_queen.png'))
-B_rook = pygame.image.load(os.path.join('pieces', 'B_rook.png'))
+B_bishop = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_bishop.png'))
+B_king = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_king.png'))
+B_knight = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_knight.png'))
+B_pawn = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_pawn.png'))
+B_queen = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_queen.png'))
+B_rook = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'B_rook.png'))
 
-W_bishop = pygame.image.load(os.path.join('pieces', 'W_bishop.png'))
-W_king = pygame.image.load(os.path.join('pieces', 'W_king.png'))
-W_knight = pygame.image.load(os.path.join('pieces', 'W_knight.png'))
-W_pawn = pygame.image.load(os.path.join('pieces', 'W_pawn.png'))
-W_queen = pygame.image.load(os.path.join('pieces', 'W_queen.png'))
-W_rook = pygame.image.load(os.path.join('pieces', 'W_rook.png'))
+W_bishop = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_bishop.png'))
+W_king = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_king.png'))
+W_knight = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_knight.png'))
+W_pawn = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_pawn.png'))
+W_queen = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_queen.png'))
+W_rook = pygame.image.load(os.path.join('Chess_Game', 'pieces', 'W_rook.png'))
 
 class ChessDisplay:
     def __init__(self):
