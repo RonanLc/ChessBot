@@ -1,6 +1,6 @@
 # ChessBot
 
-![ChessBot Image](Assets/README/Cover%20picture.png)
+![ChessBot Image](Assets/README/Cover_picture.png)
 
 >[!CAUTION]
 >**Disclaimer:** This software is currently in the development phase and is intended for developers. It is not yet suitable for general use and may contain bugs.
