@@ -1,0 +1,28 @@
+# Ignorer les dossiers __pycache__ générés par Python
+__pycache__/
+*.py[cod]
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers d'environnement virtuel
+env/
+venv/
+
+# Ignorer les fichiers générés par des IDE ou éditeurs courants
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorer les fichiers de configuration spécifiques aux systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de sauvegarde ou temporaires
+*.bak
+*.tmp
+
+# Ignorer les fichiers générés par Pygame (ex : fichiers de cache ou captures d'écran)
+*.bmp
+*.tga
